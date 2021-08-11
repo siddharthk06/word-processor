@@ -13,10 +13,8 @@ Typecscript: latest version
 In the project directory,\
 To Install the node modules, you can run
 ### `npm i`
-\
-To start, you can run
-### `npm start`
 
+### `npm run dev`
 Runs the app in the development mode.\
 
 List of API:\
@@ -27,14 +25,17 @@ To get the number of word occurence sorted by highest count from a URL\. Pass th
 To get the History
 'GET': http://localhost:4000/wordprocessor/history
 
+
+### `npm run build`
+Builds the app for production to the `build` folder.\
+
+
+
 ### `npm test`
 
 Launches the test runner
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
 Your app is ready to be deployed!
 
